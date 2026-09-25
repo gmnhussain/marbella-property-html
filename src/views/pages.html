@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pages</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      outline: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      width: 100%;
+      min-height: 100vh;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f5f5f5;
+      color: #1a1a1a;
+    }
+
+    .content {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 48px 24px;
+    }
+
+    .title {
+      text-align: left;
+      margin-bottom: 12px;
+      font-weight: bold;
+      font-size: 28px;
+    }
+
+    .subtitle {
+      margin-bottom: 32px;
+      font-size: 15px;
+      color: #555;
+    }
+
+    .links_wrap {
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+      gap: 24px;
+      margin-bottom: 20px;
+      padding: 16px 20px;
+      background: #fff;
+      border: 1px solid #e5e5e5;
+    }
+
+    .link_layout {
+      min-width: 120px;
+      font-size: 14px;
+      font-weight: bold;
+      color: #333;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+
+    .links {
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      gap: 10px;
+    }
+
+    .links a {
+      display: inline-flex;
+      align-items: center;
+      color: #0b57d0;
+      font-size: 16px;
+      text-decoration: none;
+    }
+
+    .links a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="content">
+    <h1 class="title">All pages</h1>
+    <p class="subtitle">Available pages in this build</p>
+
+    <div class="links_wrap">
+      <div class="link_layout">Home</div>
+      <div class="links">
+        <a href="index.html">Homepage (index.html)</a>
+      </div>
+    </div>
+
+    <div class="links_wrap">
+      <div class="link_layout">About</div>
+      <div class="links">
+        <a href="about-us.html">About Us (about-us.html)</a>
+      </div>
+    </div>
+
+    <div class="links_wrap">
+      <div class="link_layout">Collection</div>
+      <div class="links">
+        <a href="collection-detail.html">Collection Detail (collection-detail.html)</a>
+      </div>
+    </div>
+
+    <div class="links_wrap">
+      <div class="link_layout">Index</div>
+      <div class="links">
+        <a href="pages.html">Pages list (pages.html)</a>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
